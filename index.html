@@ -3,11 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My First Bootstrap 4 Page</title>
-    <!-- <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-          crossorigin="anonymous"> -->
+    <title>PC Builds</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="styles/main.css" rel="stylesheet">
 </head>
@@ -55,40 +51,75 @@
 
     </div>
     <div class="row">
-        <!-- <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p> -->
-
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-6">Want a PC but don't know where to start?</h1>
+          <div class="jumbotron jumbotron-fluid m-4 rounded">
+            <div class="container col-sm-10">
+              <h1 class="display-7">Want a PC but don't know where to start?</h1>
               <p class="lead">The mission of PC Builds is to provide people with little to no knowledge of computer hardware with lists of compatiable parts across different budget ranges. Click one of the cards below to look at the part list for your budget.</p>
             </div>
           </div>
 
-        <!-- <div class="col-sm-4  text-center">
-            <h2>h2 Bootstrap heading (24px)</h2>
-            <h3>h2 Bootstrap heading (18px)</h3>
-        </div> -->
-
         <!-- Bootstrap Cards -->
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="jumbotron">
+          <div class="container col-sm-12"> <br>
+            <h2>Builds</h2> <hr>
+            <p>Because of supply and demand issues, the prices of some components may be marked higher than usual. Parts can be purchased at close to normal prices with vigilence and patience. If you prefer a part that is not listed in the build, use the contact form to ask about customizing a build. I would be glad to help.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 m-auto">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/500-build-image.png" class="card-img-top" alt="$500 Build">
+              <div class="card-body">
+                <h5 class="card-title">$ 500 Build</h5>
+                <p class="card-text">This is the build of choice for home/office use. It has integrated graphics so it is not capable of running modern games well.</p> <br>
+                <a href="pages/builds/500.html" class="btn btn-primary bg-dark border-dark">Go to Build</a>
+              </div>
             </div>
           </div>
-
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/1000-build-image.png" class="card-img-top" alt="$1,000 Build">
+              <div class="card-body">
+                <h5 class="card-title">$ 1,000 Build</h5>
+                <p class="card-text">Can max out games at 1080p and even dip into 1440p gaming. This can perform any general desktop work. This is the beginning of the high end build territory.</p><br>
+                <a href="pages/builds/1000.html" class="btn btn-primary bg-dark border-dark">Go to Build</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/1500-build-image.png" class="card-img-top" alt="$1,500 Build">
+              <div class="card-body">
+                <h5 class="card-title">$ 1,500</h5>
+                <p class="card-text">Capable of gaming on extreme settings and high FPS at 1080p and 1440p. This PC also can handle 4k gaming well. This PC is overkill for any general desktop work and use.</p>
+                <a href="pages/builds/1500.html" class="btn btn-primary  bg-dark border-dark">Go to Build</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/2000-build-image.png" class="card-img-top" alt="$2,000 Build">
+              <div class="card-body">
+                <h5 class="card-title">$ 2,000</h5>
+                <p class="card-text">This build is overkill for any 1080p and 1440p gaming at max settings. Can run AAA games, on high settings, in 4k at 60 fps easily. This will also work great for streaming and recording and editing.</p>
+                <a href="pages/builds/2000.html" class="btn btn-primary bg-dark border-dark">Go to Build</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 mx-auto">
+            <div class="card">
+              <img src="images/2500-build-image.png" class="card-img-top" alt="$2,500 Build">
+              <div class="card-body">
+                <h5 class="card-title">$ 2,500</h5>
+                <p class="card-text">This build can crush gaming on any settings. 4k gaming should be no issue. Any video editing, recording, streaming or processing of any kind will be easy. This computer is overkill in every facet.</p>
+                <a href="pages/builds/2500.html" class="btn btn-primary bg-dark border-dark">Go to Build</a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
+
     <footer class="footer page-footer font-small ">
         <div class="container">
             <div class="row">

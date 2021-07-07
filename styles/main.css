@@ -1,11 +1,32 @@
 .footer {
-    position: fixed;
+    position: sticky
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: aliceblue;
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 1rem;
+}
+
+.card-group { padding: 2em 5em; }
+
+#contact-h1 { text-align: center; }
+
+#retailers-h1 { text-align: center; }
+
+.card-img-top {
+    max-width: 20%;
+    min-width: 20%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+img.card-img-top {
+    max-width: 150px;
+    min-width: 150px;
+    max-height: 200px;
+    min-height: 100px;
+    margin: 0 auto;
+    padding-top: 1em;
 }
